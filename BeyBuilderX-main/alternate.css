@@ -228,8 +228,9 @@ div {
 
 ul {
   position: relative;
-  left: 80%;
-  transform: translate(-50%, -8%);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   display: flex;
   li {
     list-style: none;
