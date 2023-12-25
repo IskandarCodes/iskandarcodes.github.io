@@ -234,6 +234,7 @@ ul {
   display: flex;
   content: "";
   clear: both;
+    max-width: 100%;
   li {
     list-style: none;
     a {
