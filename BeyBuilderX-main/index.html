@@ -22,7 +22,7 @@
 
     <!--Header space-->
 <header>
-<div class="container-fluid border">
+<div >
     <h1>BeyBuilder X v2.0</h1>
     <h2>For Beyblade X</h2>
 
@@ -31,7 +31,7 @@
             <li><a href="https://beybladeplanner.com/parts.php" target="_blank">Parts Database</a></li>
             <li><a href="https://beyblade.fandom.com/wiki/Main_Page" target="_blank">Beyblade Wiki</a></li>
             <li><a href="https://worldbeyblade.org/" target="_blank">Join the WBO!</a></li>
-            <button id="toggleCSS">Switch Theme</button>
+            <button class="tron-button" href="#" style="--color: #6eff3e;" id="toggleCSS">Switch Theme</button>
             <script src="toggleCSS.js"></script>
         </ul>
     </nav>
@@ -39,7 +39,7 @@
 </div>
 </header>
 
-      <div class="container-fluid border">
+      <div id="BeyMenu" class="container-fluid border">
         <div class="row">
           <!--BeyBlade 1 and 2 dropdowns and name space-->
           <div class="col-md-8 border">
@@ -64,8 +64,8 @@
                   <svg width="215px" height="30px" viewBox="0 0 225 30" class="border">
                       <polyline points="225,1 225,29 1,29 1,1 225,1" class="bg-line" />
                       <polyline points="225,1 225,29 1,29 1,1 225,1" class="hl-line" />
+                      <text x="15" y="20" fill="#34E425">Confirm Beyblade 1!</text>
                   </svg>
-                  <span>Confirm Beyblade 1</span>
               </button>
               </div>
               <br>
@@ -85,7 +85,13 @@
                   </div>
               </div>
               <br>
-              <button onclick="generateBey2()" class="btn btn-basic">Confirm Beyblade 2</button>
+              <button onclick="generateBey2()" class="btn1">
+                  <svg width="215px" height="30px" viewBox="0 0 225 30" class="border">
+                  <polyline points="225,1 225,29 1,29 1,1 225,1" class="bg-line" />
+                  <polyline points="225,1 225,29 1,29 1,1 225,1" class="hl-line" />
+                  <text x="15" y="20" fill="#34E425">Confirm Beyblade 2!</text>
+              </svg>
+              </button>
               <br>
               <br>
               <p style="color:white" id="buttonContainer"></p>
